@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>FexRex</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Style -->
+        <link href="css/coming_soon.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="comingsoon-text">
+            <img src="images/logo-white.png" alt="image">
+            <h1>Coming Soon</h1>
+            <p>We Are Working Something Big, Please Stay Tuned</p>
+        </div>
+        <div class="countdown-section">
+            <ul class="countdown">
+                <li id="days">
+                    <div class="number days">00</div>
+                    <div class="label">Days</div>
+                </li>
+                <li id="hours">
+                    <div class="number hours">00</div>
+                    <div class="label">Hours</div>
+                </li>
+                <li id="minutes">
+                    <div class="number minutes">00</div>
+                    <div class="label">Minutes</div>
+                </li>
+                <li id="seconds">
+                    <div class="number seconds">00</div>
+                    <div class="label">Seconds</div>
+                </li>
+            </ul>
+        </div>
+        <div class="newsletter-wrapper">
+            <div class="header">
+                <h1>Subscribe</h1>
+                <p>coming soon to your inbox</p>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            </div>
+            <div class="footer"><!-- Begin MailChimp Signup Form -->
+
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_de64e1af941556c7873067ea2_f4a1fdb231" tabindex="-1" value=""></div>
+                <form action="//designsouq.us13.list-manage.com/subscribe/post?u=de64e1af941556c7873067ea2&amp;id=f4a1fdb231" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="Enter your email here"/>
+                    <button class="btn-submit" name="subscribe" id="mc-embedded-subscribe">submit</button>
+                </form>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                <script type='text/javascript'>
+                    (function ($) {
+                        window.fnames = new Array();
+                        window.ftypes = new Array();
+                        fnames[0] = 'EMAIL';
+                        ftypes[0] = 'email';
+                        fnames[1] = 'FNAME';
+                        ftypes[1] = 'text';
+                        fnames[2] = 'LNAME';
+                        ftypes[2] = 'text';
+                    }(jQuery));
+                    var $mcj = jQuery.noConflict(true);
+                </script>
+            </div><!--End mc_embed_signup-->
+        </div>
+        <div id="mce-responses">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div> 
+        <!-- jQuery -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <!-- DownCount -->
+        <script src="js/jquery.downCount.js" type="text/javascript"></script>
+        <!-- Custom -->
+        <script>
+                    jQuery(document).ready(function () {
+
+                        //Countdown
+                        jQuery('.countdown').downCount({
+                            date: '12/31/2018 23:59:00' // m/d/y
+                        });
+                    });
+        </script>
+
+    </body>
+</html>
