@@ -12,8 +12,8 @@
     $PHPMailer->From = $from;
     $PHPMailer->FromName = $_POST["full_name"];
 	//change where to mail sent 
-    $PHPMailer->AddAddress('abduravoof@gmail.com');
-    $PHPMailer->Subject = "Pentafin Booking";
+    $PHPMailer->AddAddress('jenslow@t2sellscars.com');
+    $PHPMailer->Subject = "T2 Demo Request from Web";
     $PHPMailer->MsgHTML($emailcontent);
     if ($PHPMailer->Send()) {
         $success=true;
